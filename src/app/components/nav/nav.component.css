@@ -1,0 +1,21 @@
+.sidenav {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    width: 200px;
+}
+
+.list-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #f8f9fa;
+}
