@@ -1,9 +1,17 @@
 <mat-sidenav-container class="container">
     <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+
+        <ul class="nav-list">
+            <li class="listCustom"><a class="list-link" [routerLink]="['']">Projetos</a></li>
+            <li class="listCustom"><a class="list-link active" [routerLink]="['produtos']">Produtos</a></li>
+        </ul>
+
+        <!--
         <mat-nav-list class="nav-list">
             <mat-list-item role="listitem"><a class="list-link" [routerLink]="['']">Projetos</a></mat-list-item>
             <mat-list-item role="listitem"><a class="list-link" [routerLink]="['produtos']">Produtos</a></mat-list-item>
         </mat-nav-list> 
+        -->
     </mat-sidenav>
 
     <mat-sidenav-content class="content">
