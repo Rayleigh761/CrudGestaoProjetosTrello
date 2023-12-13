@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projetoCrud';
+
+  menus : any [] = [
+    {descricao: 'Projetos', rota: ''},
+    {descricao: 'Produtos', rota: 'produtos'}  
+    //{descricao: 'Entradas', rota: 'entradas'}
+  ]
+
+
 }
